@@ -1,0 +1,233 @@
+$color:#EF4623;
+$color_button:#002592;
+$color_text:#7C7C7C;
+$color_background:#F7F8F9;
+
+
+@font-face {
+    font-family: AllContents ;
+    src: url(fonts/Muli.ttf);
+  }
+@font-face {
+font-family: headers;
+src: url(fonts/Jost-Regular.ttf);
+}
+
+body{
+font-family: AllContents;
+}
+h1,h2,h3{
+font-family: headers;
+}
+
+
+container-fluid{
+    padding: 0;
+}
+
+header{
+    position: fixed;
+    z-index: 100;
+    button{
+        background-color: $color_button;
+        color: white;
+    }
+    nav{
+        background-color: white;
+    }
+}
+.new_office_space{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    .text{
+        display: flex;
+        position: absolute;
+        text-align: center;
+        z-index: 1;
+        color: white;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        button{
+            background-color: $color_button;
+            color: white;
+        }
+        h3{
+            font-size: smaller;
+        }
+        
+    }
+}
+
+
+.frequently_asked{
+    h3{
+        font-size: smaller;
+        color: $color;
+    }
+
+}
+.take_a_virtual{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    .text{
+        display: flex;
+        position: absolute;
+        text-align: center;
+        z-index: 1;
+        color: white;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        button{
+            background-color: lighten($color_button, $amount: 10%);
+            border: none;
+            width: 250px;
+            height: 250px;
+            color: white;
+            border-radius: 100%;
+            transition: 0.5s ease;
+            &:hover{
+                background-color: $color_button;
+                width: 260px;
+                height: 260px;
+            }
+        }
+        h3{
+            font-size: smaller;
+        }
+        
+    }
+}
+
+.our_premises{
+    p{
+        color: $color_text;
+        b{
+            color: black;
+        }
+    }
+    
+    h3{
+        font-size: smaller;
+        color: $color;
+    }   
+    .paragraph{
+        display: flex;
+        background-color: $color_background;
+        flex-direction: column;
+        
+ }
+}
+
+.this_is_multioffice{
+    display: flex;
+    text-align: center;
+    background-color: #282828;
+    color: white;
+    margin-top: 50px;
+    
+    
+    .paragraph{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        h3{
+            font-size: smaller;
+            color: $color;
+        }  
+        p{
+            font-size: xx-large;
+        }
+        button{
+            background-color: $color_button;
+            color: white;
+         }
+    }
+    
+}
+
+.get_more_done{
+    display: flex;
+    margin-top: 50px;
+    justify-content: center;
+    .get_more_done-header{
+        b{
+            font-size: xx-large;
+            color: black;
+        }
+        h3{
+            font-size: smaller;
+            color: $color;
+        }
+        text-align: center;
+    }
+    .paragraph{
+        display: flex;
+        background-color: $color_background;
+        flex-direction: column;
+        
+ }
+    a{
+        text-decoration: none;
+        color: black;
+    }
+   
+    h3{
+        color: $color;
+    }
+    p{
+        color: $color_text;
+    }
+}
+.footer{
+    .footer-office{
+        background-color: #1C1C1C;
+        color: $color_text;
+        h3{
+            color: white;
+        }
+        
+
+    }
+    .footer-links{
+        background-color: #282828;
+        color: $color_text;
+        
+        h3{
+            color: white;
+        }
+        ul{
+            a{
+                text-decoration: none;
+                color: $color_text;
+            }
+            li{
+                list-style: none;
+            }
+          
+        }
+        p{
+            color: $color_text;
+        }
+    }
+    .footer-about{
+        background-color: #282828;
+        color: $color_text;
+        h3{
+            color: white;
+        }
+
+    }
+   
+
+
+}

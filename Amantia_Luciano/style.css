@@ -1,0 +1,202 @@
+@font-face {
+  font-family: AllContents;
+  src: url(fonts/Muli.ttf);
+}
+@font-face {
+  font-family: headers;
+  src: url(fonts/Jost-Regular.ttf);
+}
+body {
+  font-family: AllContents;
+}
+
+h1, h2, h3 {
+  font-family: headers;
+}
+
+container-fluid {
+  padding: 0;
+}
+
+header {
+  position: fixed;
+  z-index: 100;
+}
+header button {
+  background-color: #002592;
+  color: white;
+}
+header nav {
+  background-color: white;
+}
+
+.new_office_space {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  align-content: center;
+  align-items: center;
+  justify-content: center;
+}
+.new_office_space .text {
+  display: flex;
+  position: absolute;
+  text-align: center;
+  z-index: 1;
+  color: white;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.new_office_space .text button {
+  background-color: #002592;
+  color: white;
+}
+.new_office_space .text h3 {
+  font-size: smaller;
+}
+
+.frequently_asked h3 {
+  font-size: smaller;
+  color: #EF4623;
+}
+
+.take_a_virtual {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  align-content: center;
+  align-items: center;
+  justify-content: center;
+}
+.take_a_virtual .text {
+  display: flex;
+  position: absolute;
+  text-align: center;
+  z-index: 1;
+  color: white;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.take_a_virtual .text button {
+  background-color: #0032c5;
+  border: none;
+  width: 250px;
+  height: 250px;
+  color: white;
+  border-radius: 100%;
+  transition: 0.5s ease;
+}
+.take_a_virtual .text button:hover {
+  background-color: #002592;
+  width: 260px;
+  height: 260px;
+}
+.take_a_virtual .text h3 {
+  font-size: smaller;
+}
+
+.our_premises p {
+  color: #7C7C7C;
+}
+.our_premises p b {
+  color: black;
+}
+.our_premises h3 {
+  font-size: smaller;
+  color: #EF4623;
+}
+.our_premises .paragraph {
+  display: flex;
+  background-color: #F7F8F9;
+  flex-direction: column;
+}
+
+.this_is_multioffice {
+  display: flex;
+  text-align: center;
+  background-color: #282828;
+  color: white;
+  margin-top: 50px;
+}
+.this_is_multioffice .paragraph {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.this_is_multioffice .paragraph h3 {
+  font-size: smaller;
+  color: #EF4623;
+}
+.this_is_multioffice .paragraph p {
+  font-size: xx-large;
+}
+.this_is_multioffice .paragraph button {
+  background-color: #002592;
+  color: white;
+}
+
+.get_more_done {
+  display: flex;
+  margin-top: 50px;
+  justify-content: center;
+}
+.get_more_done .get_more_done-header {
+  text-align: center;
+}
+.get_more_done .get_more_done-header b {
+  font-size: xx-large;
+  color: black;
+}
+.get_more_done .get_more_done-header h3 {
+  font-size: smaller;
+  color: #EF4623;
+}
+.get_more_done .paragraph {
+  display: flex;
+  background-color: #F7F8F9;
+  flex-direction: column;
+}
+.get_more_done a {
+  text-decoration: none;
+  color: black;
+}
+.get_more_done h3 {
+  color: #EF4623;
+}
+.get_more_done p {
+  color: #7C7C7C;
+}
+
+.footer .footer-office {
+  background-color: #1C1C1C;
+  color: #7C7C7C;
+}
+.footer .footer-office h3 {
+  color: white;
+}
+.footer .footer-links {
+  background-color: #282828;
+  color: #7C7C7C;
+}
+.footer .footer-links h3 {
+  color: white;
+}
+.footer .footer-links ul a {
+  text-decoration: none;
+  color: #7C7C7C;
+}
+.footer .footer-links ul li {
+  list-style: none;
+}
+.footer .footer-links p {
+  color: #7C7C7C;
+}
+.footer .footer-about {
+  background-color: #282828;
+  color: #7C7C7C;
+}
+.footer .footer-about h3 {
+  color: white;
+}/*# sourceMappingURL=style.css.map */
